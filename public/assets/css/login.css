@@ -1,0 +1,17 @@
+.login {
+  width: 424px;
+  background-color: #fff;
+  padding: 30px;
+}
+
+.login-title {
+  color: #44566c;
+}
+
+
+/* social login */
+
+.social-login:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

@@ -1,0 +1,31 @@
+@keyframes shrinkRight {
+  to {
+    width: 71px;
+  }
+}
+
+@keyframes growRight {
+  to {
+    width: 247px;
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-300%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

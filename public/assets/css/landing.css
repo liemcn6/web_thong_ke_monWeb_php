@@ -1,0 +1,112 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+.nav-link:hover {
+  color: #000;
+  transform: translateY(-10%);
+} 
+
+/* banner */
+
+.custom-banner {
+  margin-top: 65px;
+  position: relative;
+}
+
+.custom-banner > h1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 65%;
+}
+
+.custom-banner > h1::after {
+  content: "";
+  width: 20%;
+  height: 5px;
+  background-color: var(--custom-purple-color);
+}
+
+.custom-banner a {
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* about us */
+
+.why-choose-us p {
+  text-align: justify;
+}
+
+/* override carousel control icon color */
+.customer-quote-control > .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fe2c55'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+.customer-quote-control > .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fe2c55'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.carousel-indicators > button {
+  background-color: #fe2c55 !important;
+}
+
+.need-slide {
+  visibility: hidden;
+}
+
+.top-spending-customer .slide-up {
+  animation: slideUp 1s ease-in-out;
+  visibility: visible;
+}
+
+.top-spending-customer .slide-left {
+  animation: slideLeft 1s ease-in-out;
+  visibility: visible;
+}
+
+.navbar-nav {
+  font-size: 1.15rem;
+}
+
+.nav-link {
+  min-width: 100px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: red;
+}
+
+.blockquote p {
+  padding: 0 120px;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 500px;
+}
+
+/* scroll top  */
+
+#scroll-top-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  visibility: hidden;
+}
+
+#scroll-top-btn:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,95 @@
+.custom-datepicker {
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  width: 100%;
+  padding: 0.375rem 0.375rem 0.375rem 0.75rem;
+}
+
+.custom-sidebar-collapse {
+  width: 243px;
+  transition: width 0.3s ease-in 0.2s;
+  width: 71px;
+}
+
+.custom-sidebar-collapse:hover {
+  width: 243px;
+}
+
+/* custom color */
+
+.custom-purple-color {
+  color: var(--custom-purple-color);
+}
+
+.custom-bg-purple-color {
+  background-color: var(--custom-purple-color);
+}
+
+/* custom button */
+
+.custom-btn-purple {
+  color: #fff;
+  background-color: var(--custom-purple-color);
+}
+
+.custom-btn-purple:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.custom-btn-outlined-purple {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid var(--custom-purple-color);
+}
+
+.custom-btn-outlined-purple:hover {
+  color: #fff;
+  background-color: var(--custom-purple-color);
+}
+
+.custom-btn-clipboard {
+  font-size: 0.65rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+/* ultility */
+
+.custom-opacity-06 {
+  opacity: 0.6;
+}
+
+.custom-gold-color {
+  color: #dba514;
+}
+
+.custom-bg-gold-color {
+  background-color: rgba(219, 165, 20, 0.1);
+}
+
+.custom-silver-color {
+  color: #969aa2;
+}
+
+.custom-bg-silver-color {
+  background-color: rgba(166, 170, 175, 0.1);
+}
+
+.custom-bronze-color {
+  color: #9c7a3c;
+}
+
+.custom-bg-bronze-color {
+  background-color: rgba(156, 122, 60, 0.1);
+}
+
+.required-field label::after {
+  content: "*";
+  color: red;
+  margin-left: 4px;
+}
+
+.table > :not(:first-child) {
+  border-top: 1px solid currentColor;
+}

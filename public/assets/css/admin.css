@@ -1,0 +1,167 @@
+hr {
+  color: #a6a6a6;
+}
+
+/* sidebar */
+
+.custom-collapse-control i:hover {
+  cursor: pointer;
+}
+
+.user-info:hover,
+.user-control:hover {
+  cursor: pointer;
+}
+
+.user-info .user-avatar {
+  width: 36px;
+  height: 36px;
+  margin-right: 12px;
+  border-radius: 4px;
+}
+
+.user-info .user-name {
+  color: #fff;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+/* sidebar nav */
+
+.nav-list {
+  padding: 0;
+  list-style: none;
+}
+
+.nav-list__item {
+  border-radius: 4px;
+  padding-left: 12px;
+}
+
+.nav-list__item:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.nav-list__item a {
+  display: block;
+  padding: 16px 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-list__item i {
+  margin-right: 12px;
+}
+
+/* filter */
+
+.filter-criteria {
+  border-bottom: 1px solid var(--custom-horizontal-separator-color);
+}
+
+.filter-criteria:first-child {
+  border-top: 1px solid var(--custom-horizontal-separator-color);
+}
+
+.filter-collapse-control:hover {
+  cursor: pointer;
+}
+
+.filter-title {
+  font-size: 0.875rem;
+}
+
+/* search tag */
+
+.search-tag__list {
+  margin-bottom: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.search-tag__item {
+  font-size: 1rem;
+  padding: 4px 10px;
+  background-color: #e7e7e7;
+  border-radius: 40px;
+}
+
+.search-tag__item > i:hover {
+  cursor: pointer;
+}
+
+/* client list */
+
+.filter-control .fa-search {
+  position: absolute;
+  right: 15px;
+  top: 25%;
+}
+
+.filter-control .fa-search:hover {
+  cursor: pointer;
+  color: #000 !important;
+}
+
+.search-result {
+  max-height: 545px;
+}
+
+.search-result .edit-display-col-icon:hover {
+  cursor: pointer;
+}
+
+.search-result__item:hover {
+  cursor: pointer;
+}
+
+.search-result__item .name-and-email {
+  width: 35%;
+}
+
+.loading-more {
+  visibility: hidden;
+}
+
+.loading-more > i {
+  animation: spin 1s linear infinite;
+}
+
+.client-rank {
+  padding: 1px 8px;
+  border-radius: 4px;
+}
+
+.client-detail-info__name {
+  max-width: 200px;
+}
+
+.client-detail-info__note {
+  height: 150px;
+  overflow: auto;
+  border: 1px solid #a6a6a6;
+  border-radius: 4px;
+  word-wrap: break-word;
+}
+
+.pagination {
+  position: fixed;
+  right: 30px;
+  bottom: 15px;
+}
+
+.pagination i {
+  padding: 5px 12px;
+}
+
+.pagination i:hover {
+  cursor: pointer;
+}
+
+/* form */
+
+.form-group {
+  margin-bottom: 16px;
+}
